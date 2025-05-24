@@ -239,7 +239,7 @@ var Scoreboard = new function () {
     <td class=\"rank\">" + user["rank"] + "</td> \
     <td colspan=\"10\" class=\"f_name\">" + escapeHTML(user["f_name"]) + "</td> \
     <td colspan=\"10\" class=\"l_name\">" + escapeHTML(user["l_name"]) + "</td> \
-    <td class=\"user_id\">" + user["key"].replace('_5f', '_') + "</td>";
+    <td class=\"user_id\">" + user["key"] + "</td>";
 
         if (user['team']) {
             result += " \
